@@ -42,5 +42,8 @@ public class Main {
         System.out.println(b>>>1);
         System.out.println(b>>>=1);
         System.out.println(-0b00000001);
+        System.out.println(false&false);
+        byte c=0b00000001;
+        System.out.println(~c);
     }    
 }

@@ -5,13 +5,14 @@ public class Test {
             Chars being assigned a base 10 value will be converted to the ASCII character
             Cannot use multiple characters in single quotes for char assignment unless starting with \ to-
             create a literal such as \ for octal or \\u for unicode (without the first \)
-            Only unicode requires 4 hex digits
+            Only unicode requires 4 digits
             You can create literals by starting with 0 as octal, starting with 0x is hexadecimal, 0b binary.
             You can compare chars to literals because chars get turned into base 10 ASCII and literals get converted-
             to base 10 during evaluation.
             When using a zero and then a letter or no letter to create a literal, all leading zeros of the literal-
             can be ignored
-            Strings take in literals as decimals rather than converting them to chars the same way concatinating an-
+            You can use a \ before the number to create a literal in octal but only in single quotes
+            Strings take in literals as decimals rather than converting them to chars the same way concatenating an-
             int would add an int to the string rather than that int's ASCII character.
         */ 
         char A='A';
