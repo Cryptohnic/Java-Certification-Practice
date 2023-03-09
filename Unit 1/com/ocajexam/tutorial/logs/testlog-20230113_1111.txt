@@ -1,3 +1,0 @@
-Jan 13, 2023 11:11:14 AM com.ocajexam.tutorial.TestClass main
-INFO: 
-This is a logged information message.
